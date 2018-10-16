@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Personal Information"
+        android:id="@+id/perTitle"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/ncolor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@layout/edit_text"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#ffffff"/>
+    
+
+    <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="14dp"/> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/ncolor"
+                android:text="First Name:" android:id="@+id/txFN"/>
+
+
+            <EditText android:layout_width="135dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content" android:enabled="true"
+                android:id="@+id/valFN"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="14dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/ncolor"
+                android:text="Lastname:" android:id="@+id/txLN"/>
+
+
+            <EditText android:layout_width="135dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:id="@+id/valLN"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="14dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/ncolor"
+                android:text="ID No:" android:id="@+id/txid"/>
+
+
+            <EditText android:layout_width="135dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:enabled="true"
+                android:id="@+id/validno"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="14dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:background="@color/ncolor"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:background="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/ncolor"
+                android:id="@+id/femaleChoose"
+                android:onClick="chooseFemale"
+                android:textSize="18dp"
+                android:layout_alignBottom="@+id/pica"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/femaleChoose"
+                android:text="Choose Gender"
+                android:gravity="center"
+                android:textColor="@color/wcolor"
+                android:textSize="18dp"
+                android:layout_alignParentBottom="true"
+                android:textStyle="bold"
+                android:foregroundGravity="center"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:background="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/ncolor"
+                android:gravity="center"
+                android:id="@+id/maleChoose"
+                android:textSize="18dp"
+                android:onClick="chooseMale"
+                android:layout_alignParentRight="true"
+                android:layout_alignBottom="@+id/picc"/>
+
+        </RelativeLayout> -->
+
+    </LinearLayout>
+
+    <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/> -->
+
+    <Button
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFromDialog"
+        android:text="Update Info"
+        android:gravity="center"
+        android:onClick="dialogRead"
+        android:textStyle="bold"
+        android:textColor="@color/ncolor"
+        android:background="@layout/edit_text"
+        android:layout_gravity="center"/>
+    
+</LinearLayout>

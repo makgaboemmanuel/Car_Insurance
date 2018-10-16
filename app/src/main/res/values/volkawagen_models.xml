@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="volkswagen_models">
+        <item>Beetle</item>
+        <item>Cabriolet</item>
+        <item>Golf SV</item>
+        <item>Golf R</item>
+        <item>Jetta</item>
+        <item>Polo Hatch</item>
+        <item>Golf GTI</item>
+        <item>Golf TFSI</item>
+        <item>Passat</item>
+        <item>Polo GTI</item>
+        <item>Polo Sedan</item>
+        <item>Polo Vivo</item>
+        <item>Polo Vivo Sedan</item>
+        <item>Scirocco</item>
+        <item>Tiguan</item>
+        <item>Touareg</item>
+        <item>Up</item>
+    </string-array>
+
+</resources>

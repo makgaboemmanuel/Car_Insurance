@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- list of towns in limpopo -->
+
+    <string-array name="limpopo_towns">
+        <item> Afguns</item>
+        <item>Alldays</item>
+        <item>Bandelierkop</item>
+        <item>Ba-Phalaborwa</item>
+        <item>Bela-Bela</item>
+        <item>Bochum</item>
+        <item>Bosbokrand	</item>
+        <item>Dendron</item>
+        <item>Duiwelskloof</item>
+        <item>Ellisras</item>
+        <item>Gravelotte</item>
+        <item>Haenertsburg</item>
+        <item>Hoedspruit</item>
+        <item>Klaserie</item>
+        <item>Lephalale</item>
+        <item>Letsitele</item>
+        <item>Leydsdorp</item>
+        <item>Louis Trichardt</item>
+        <item>Modimolle</item>
+        <item>Modjadjiskloof</item>
+        <item>Mogwadi</item>
+        <item>Mokopane</item>
+        <item>Mookgophong	</item>
+        <item>Bushveld</item>
+        <item>Messina</item>
+        <item>Naboomspruit</item>
+        <item>Nylstroom</item>
+        <item>Ofcolaco</item>
+        <item>Phalaborwa</item>
+        <item>Polokwane</item>
+        <item>Potgietersrus</item>
+        <item>Roedtan	Bushveld</item>
+        <item>Bochum</item>
+        <item>Seshego</item>
+        <item>Thabazimbi</item>
+        <item>Thohoyandou</item>
+        <item>Tzaneen</item>
+        <item>Vaalwater</item>
+        <item>Vivo</item>
+        <item>Zebedeila</item>
+    </string-array>
+
+
+</resources>

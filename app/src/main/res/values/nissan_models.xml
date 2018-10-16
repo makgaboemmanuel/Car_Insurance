@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nissan_models">
+        <item>370Z Nismo</item>
+        <item>Armada</item>
+        <item>Cube</item>
+        <item>GT-R</item>
+        <item>Juke</item>
+        <item>Maxima</item>
+        <item>Navara</item>
+        <item>Nismo</item>
+        <item>NP200</item>
+        <item>NP300</item>
+        <item>NV200</item>
+        <item>Platina</item>
+        <item>Primera</item>
+        <item>Qashqai</item>
+        <item>Quest</item>
+        <item>Sku=yline</item>
+        <item>Sunny</item>
+        <item>Terrano</item>
+        <item>Tinna</item>
+        <item>Tiida</item>
+        <item>Titan Crew Cab</item>
+        <item>XTera</item>
+        <item>X-Trail</item>
+    </string-array>
+
+
+</resources>

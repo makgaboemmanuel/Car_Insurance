@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- android:background="@layout/edit_text"   -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        ></View>
+
+    <!--    android:background="@layout/rounded_buttons_settings"  -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vBrand"
+            android:text="Brand: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/brandVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vColor"
+            android:text="Color: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/colorVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vDistance"
+            android:text="Distance: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/distanceVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vModel"
+            android:text="Model: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/modelVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vYears"
+            android:text="Years Bought: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yearsVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+
+    </RelativeLayout>
+
+
+    <!-- new information added on weekend -->
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vtotalInsuredAmount"
+        android:text="Total Insured Amount: "
+        android:textStyle="bold"
+        android:textColor="@color/ncolor"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalInsuredAmountVal"
+        android:textColor="@color/ncolor"
+        android:layout_alignParentRight="true"
+        android:text="\?????????????"
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vpassMaxCover"
+            android:text="Passenger Maximum Cover: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/passMaxCoverVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vVeMaxCover"
+            android:text="Vehicle Maximum Cover: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/veMaxCoverVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vinsuredFor"
+            android:text="Amount Insured For: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/insuredForVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vClassOfUse"
+            android:text="Amount Insured For: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/classOfUseVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vExcess"
+            android:text="Amount Insured For: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/excessVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vCoverType"
+            android:text="Cover Type: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/coverTypeVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vTotalLoss"
+            android:text="Cover Type: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/totalLossVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vThirdParty"
+            android:text="Third Party: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thirdPartyVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vRoadAssist"
+            android:text="Road Assist: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/roadAssistVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vTowAway"
+            android:text="Tow Away: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/towAwayVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vEmer_accom"
+            android:text="Emergency Accomodation: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emer_accomVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vtrackDevice"
+            android:text="Tracker Device: "
+            android:textStyle="bold"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/trackDeviceVal"
+            android:textColor="@color/ncolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+    </RelativeLayout>
+
+
+    <!--   new information added on weekend   -->
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:background="@layout/rounded_buttons_settings"></View>
+
+</LinearLayout>

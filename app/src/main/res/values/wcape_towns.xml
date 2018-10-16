@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string-array name="wcape_towns">
+    <item>Beaufort West</item>
+    <item>Bergrivier</item>
+    <item>Bitou</item>
+    <item>Breede Valley</item>
+    <item>Cape Agulhas</item>
+    <item>Cederberg</item>
+    <item>Cape Town</item>
+    <item>Drakenstein</item>
+    <item>George</item>
+    <item>Hessequa</item>
+    <item>Kannaland</item>
+    <item>Knysna</item>
+    <item>Laingsburg</item>
+    <item>Langeberg</item>
+    <item>Matzikama</item>
+    <item>Mossel Bay</item>
+    <item>Oudtshoorn</item>
+    <item>Overstrand</item>
+    <item>Prince Albert</item>
+    <item>Saldanha Bay</item>
+    <item>Stellenbosch</item>
+    <item>Swartland</item>
+    <item>Swellendam</item>
+    <item>Theewaterskloof</item>
+    <item>Witzenberg</item>
+</string-array>
+
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:background="@layout/rounded_buttons_settings"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vAddress"
+            android:text="Address: "
+            android:textStyle="bold"
+            android:textColor="@color/wcolor"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addressVal"
+            android:textColor="@color/wcolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vCity"
+            android:text="City: "
+            android:textStyle="bold"
+            android:textColor="@color/wcolor"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityVal"
+            android:textColor="@color/wcolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vCountry"
+            android:text="Country: "
+            android:textStyle="bold"
+            android:textColor="@color/wcolor"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/countryVal"
+            android:textColor="@color/wcolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vPostCode"
+            android:text="PostCode: "
+            android:textStyle="bold"
+            android:textColor="@color/wcolor"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/postcodeVal"
+            android:textColor="@color/wcolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vProvince"
+            android:text="Province: "
+            android:textStyle="bold"
+            android:textColor="@color/wcolor"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/provinceVal"
+            android:textColor="@color/wcolor"
+            android:layout_alignParentRight="true"
+            android:text="\?????????????"
+            />
+
+    </RelativeLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:background="@layout/rounded_buttons_settings"></View>
+
+</LinearLayout>

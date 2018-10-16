@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_credits"
+    tools:context="com.example.user16.firedbnext.credits"
+  android:layout_height="match_parent"
+   android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:text="Credits:"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/ncolor"
+        android:background="@layout/edit_text"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="21dp"></View>
+
+    <RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="172dp"
+        android:id="@+id/devme"
+        android:src="@drawable/dev_me"
+        android:layout_alignParentLeft="true"/>
+
+        <!-- <View
+               android:layout_width="15dp"
+               android:layout_height="21dp"></View> -->
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_toRightOf="@+id/devme"
+            android:id="@+id/intwo" android:layout_alignParentRight="true" android:paddingLeft="10dp" android:paddingRight="10dp">
+<LinearLayout
+    android:layout_width="match_parent" android:id="@+id/linone"
+    android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/ncolor"
+                android:paddingBottom="4dp"
+                android:gravity="center"
+               android:text="Name: " android:id="@+id/dname"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/dname"
+                android:id="@+id/mname"
+                android:textColor="@color/ncolor"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:text="Mathekga M.E"/>
+    <View android:layout_width="match_parent"
+    android:layout_height="12dp"></View>
+</LinearLayout>
+            <!-- <View
+                android:layout_width="match_parent"
+                android:layout_height="95dp"></View> -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_below="@+id/linone" android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/mname"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/tvRoles"
+                android:textSize="15dp"
+                android:textColor="@color/ncolor"
+                android:text="Roles / Occupation"
+                android:paddingBottom="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_below="@+id/mname"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:id="@+id/tvRolesVal"
+                    android:textSize="13dp"
+                    android:textColor="@color/ncolor"
+                    android:text="@string/about_me" android:paddingBottom="20dp"/>
+</LinearLayout>
+        </RelativeLayout>
+</RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="22dp" android:background="@layout/rounded_buttons_settings"></View>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="21dp"></View>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="172dp"
+                android:id="@+id/devkh"
+                android:src="@drawable/phuti"
+                android:layout_alignParentRight="true"/>
+
+            <!-- <View
+                   android:layout_width="15dp"
+                   android:layout_height="21dp"></View> -->
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_toRightOf="@+id/devkh"
+                android:id="@+id/intwokh" android:layout_alignParentLeft="true" android:paddingLeft="10dp" android:paddingRight="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent" android:id="@+id/linonetwo"
+                    android:layout_height="wrap_content" android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColor="@color/ncolor"
+                        android:paddingBottom="4dp"
+                        android:gravity="center"
+                        android:text="Name: " android:id="@+id/khname"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/dname"
+                        android:id="@+id/khnameval"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:textColor="@color/ncolor"
+                        android:text="Khuthadzo Gundula"/>
+                    <View android:layout_width="match_parent"
+                        android:layout_height="12dp"></View>
+                </LinearLayout>
+                <!-- <View
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"></View> -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_below="@+id/linonetwo" android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_below="@+id/mname"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:id="@+id/tvRoleskh"
+                        android:textSize="15dp"
+                        android:text="Roles / Occupation"
+                        android:textColor="@color/ncolor"
+                        android:paddingBottom="5dp"/>
+                    <TextView
+                        android:layout_width="169dp"
+                        android:layout_below="@+id/mname"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:id="@+id/tvRolesValKH"
+                        android:textSize="13dp"
+                        android:textColor="@color/ncolor"
+                        android:text="@string/khuti_roles" android:paddingBottom="20dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

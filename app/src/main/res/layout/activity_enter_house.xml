@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_enter_house"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@layout/edit_text"
+    tools:context="com.example.user16.firedbnext.activity_enter_house">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<TextView
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="@color/wcolor"
+    android:textSize="20dp"
+    android:background="@layout/rounded_buttons_settings"
+    android:text="House Details:"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:src="@drawable/house_c"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Street Address:"
+            android:id="@+id/tvStAdd"
+            android:gravity="center"
+            android:editable="true"
+            android:textColor="@color/wcolor"
+            android:textSize="15dp"
+            android:background="@layout/rounded_buttons_settings"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@layout/edit_text"
+            android:layout_alignParentRight="true"
+            android:id="@+id/evStAdd"
+            android:textAlignment="center"
+            android:layout_alignRight="@+id/tvStAdd"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Country:"
+            android:id="@+id/tvCountry"
+            android:gravity="center"
+            android:textColor="@color/wcolor"
+            android:textSize="15dp"
+            android:background="@layout/rounded_buttons_settings"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@layout/edit_text"
+            android:layout_alignParentRight="true"
+            android:id="@+id/evCountry"
+            android:entries="@array/countries"
+            android:hint="South Africa"
+            android:textAlignment="center"
+            android:contextClickable="false"
+            android:layout_alignRight="@+id/tvCountry"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Province:"
+            android:id="@+id/tvProvince"
+            android:gravity="center"
+            android:textColor="@color/wcolor"
+            android:textSize="15dp"
+            android:background="@layout/rounded_buttons_settings"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@layout/edit_text"
+            android:layout_alignParentRight="true"
+            android:id="@+id/evProvince"
+            android:textAlignment="center"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:contextClickable="false"
+            android:layout_alignRight="@+id/tvProvince"/>
+
+        <!--           android:entries="@array/provinces" -->
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="City / Suburb:"
+            android:layout_centerInParent="true"
+            android:id="@+id/tvTown"
+            android:gravity="center"
+            android:textColor="@color/wcolor"
+            android:textSize="15dp"
+            android:background="@layout/rounded_buttons_settings"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@layout/edit_text"
+            android:layout_alignParentRight="true"
+            android:id="@+id/evTown"
+            android:hint="South Africa"
+
+            android:textAlignment="center"
+            android:contextClickable="false"
+            android:layout_alignRight="@+id/tvTown"/>
+
+        <!--  android:entries="@array/gauteng_towns" -->
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Postal Code:"
+            android:layout_centerInParent="true"
+            android:id="@+id/tvPostalCode"
+            android:gravity="center"
+            android:textColor="@color/wcolor"
+            android:textSize="15dp"
+            android:background="@layout/rounded_buttons_settings"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:background="@layout/edit_text"
+            android:layout_alignParentRight="true"
+            android:id="@+id/evPostalCode"
+            android:hint="0152"
+            android:textAlignment="center"
+            android:contextClickable="false"
+            android:layout_alignRight="@+id/tvPostalCode"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Building Type:"
+            android:layout_centerInParent="true"
+            android:id="@+id/tvBuildingType"
+            android:gravity="center"
+            android:textColor="@color/wcolor"
+            android:textSize="15dp"
+            android:background="@layout/rounded_buttons_settings"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+
+        <RadioGroup
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:background="@layout/edit_text"
+            android:layout_alignParentRight="true"
+            android:id="@+id/evBuildingType"
+            android:textAlignment="center"
+            android:contextClickable="false"
+            android:onClick="buildTy"
+            android:layout_alignRight="@+id/tvBuildingType">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Business"
+                android:id="@+id/typeBusiness"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Home"
+                android:gravity="right|center_vertical"
+                android:id="@+id/typeHome"/>
+            </LinearLayout>
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Years Built:"
+            android:layout_centerInParent="true"
+            android:id="@+id/tvYearsBuilt"
+            android:gravity="center"
+            android:textColor="@color/wcolor"
+            android:textSize="15dp"
+            android:background="@layout/rounded_buttons_settings"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:inputType="number"
+            android:background="@layout/edit_text"
+            android:layout_alignParentRight="true"
+            android:id="@+id/evYearsBuilt"
+            android:entries="@array/years"
+            android:textAlignment="center"
+            android:contextClickable="false"
+            android:layout_alignRight="@+id/tvYearsBuilt"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/wcolor">  </View>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="31dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:onClick="regHouse"
+            android:textColor="@color/wcolor"
+            android:text="Register House"
+            android:background="@layout/rounded_buttons_settings"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

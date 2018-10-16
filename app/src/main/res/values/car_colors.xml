@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="car_colors">
+        <item>White</item>
+        <item>Silver</item>
+        <item>Black</item>
+        <item>Grey</item>
+        <item>Blue</item>
+        <item>Grey</item>
+        <item>Red</item>
+        <item>Brown</item>
+        <item>Green</item>
+        <item>White</item>
+        <item>White</item>
+        <item>Orange</item>
+        <item>Magenta</item>
+        <item>Maroon</item>
+        <item>Purple</item>
+        <item>Gold</item>
+        <item>Beige</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<View
+    android:layout_width="wrap_content"
+    android:layout_height="15dp"
+    android:background="@color/ncolor"></View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Car Here:"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/ncolor"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textSize="19dp"
+        android:paddingBottom="10dp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:background="@layout/rounded_buttons_settings"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Which Property?"
+                android:layout_alignParentLeft="true"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/propKey"
+                android:layout_alignParentRight="true">
+
+            </Spinner>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:background="@color/wcolor"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Which Field?:"
+                android:layout_alignParentLeft="true"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fieldToC"
+                android:layout_alignParentRight="true">
+
+            </Spinner>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

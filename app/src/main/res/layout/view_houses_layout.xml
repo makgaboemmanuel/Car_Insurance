@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_personal_info"
+    tools:context="com.example.user16.firedbnext.ViewHouses"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="28dp"
+        android:text="Your House Properties:"
+        android:textColor="@color/wcolor"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@layout/rounded_buttons_settings"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:background="@color/wcolor"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewhousedata"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="editHouses"
+        android:divider="@color/wcolor"
+        android:dividerHeight="3dp"
+        android:textColor="@color/wcolor"
+        android:background="@layout/rounded_buttons_settings"/>
+
+    <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:background="@color/wcolor"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnLeoanGo"
+        android:text="View Leo  Page"
+        android:textColor="@color/wcolor"
+        android:background="@layout/rounded_buttons_settings"/> -->
+</LinearLayout>

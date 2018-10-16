@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_car_create"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user16.firedbnext.CarCreate">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/wcolor"
+                android:textSize="20dp"
+                android:background="@layout/rounded_buttons_settings"
+                android:text="Car Details:"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:src="@drawable/car2too"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/wcolor">  </View>
+
+            <!--  number plate -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Number Plate:"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/tvNumPlate"
+                    android:gravity="center"
+                    android:textColor="@color/wcolor"
+                    android:textSize="18dp"
+                    android:background="@layout/rounded_buttons_settings"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"/>
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:background="@layout/edit_text"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/evNumPlate"
+                    android:hint="XYZ220GP"
+                    android:textAlignment="center"
+                    android:contextClickable="false"
+                    android:layout_alignRight="@+id/tvNumPlate"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/wcolor">  </View>
+
+
+            <!-- create initial car value field heer please -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Intial Price:"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/tvOnePrice"
+                    android:gravity="center"
+                    android:textColor="@color/wcolor"
+                    android:textSize="18dp"
+                    android:background="@layout/rounded_buttons_settings"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"/>
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:background="@layout/edit_text"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/evOnePrice"
+                    android:hint="290000"
+                    android:textAlignment="center"
+                    android:contextClickable="false"
+                    android:layout_alignRight="@+id/tvOnePrice"/>
+
+            </RelativeLayout>
+            <!-- create initial car value field heer please -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/wcolor">  </View>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Brand Name:"
+                    android:id="@+id/tvBrand"
+                    android:gravity="center"
+                    android:textColor="@color/wcolor"
+                    android:textSize="18dp"
+                    android:background="@layout/rounded_buttons_settings"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"/>
+
+                <Spinner
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:background="@layout/edit_text"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/evBrand"
+                    android:hint="Toyota"
+                    android:textAlignment="center"
+                    android:contextClickable="false"
+                    android:layout_alignRight="@+id/tvCountry"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/wcolor">  </View>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Model:"
+                    android:id="@+id/tvModel"
+                    android:gravity="center"
+                    android:textColor="@color/wcolor"
+                    android:textSize="18dp"
+                    android:background="@layout/rounded_buttons_settings"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"/>
+
+                <Spinner
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:background="@layout/edit_text"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/evModel"
+                    android:hint="Corolla"
+                    android:textAlignment="center"
+                    android:contextClickable="false"
+                    android:layout_alignRight="@+id/tvProvince"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/wcolor">  </View>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Color:"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/tvColor"
+                    android:gravity="center"
+                    android:textColor="@color/wcolor"
+                    android:textSize="18dp"
+                    android:background="@layout/rounded_buttons_settings"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"/>
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:background="@layout/edit_text"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/evColor"
+                    android:hint="Blue"
+                    android:textAlignment="center"
+                    android:contextClickable="false"
+                    android:layout_alignRight="@+id/tvTown"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/wcolor">  </View>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Years:"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/tvYears"
+                    android:gravity="center"
+                    android:textColor="@color/wcolor"
+                    android:textSize="18dp"
+                    android:background="@layout/rounded_buttons_settings"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"/>
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:inputType="number"
+                    android:background="@layout/edit_text"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/evYears"
+                    android:hint="5"
+                    android:textAlignment="center"
+                    android:contextClickable="false"
+                    android:layout_alignRight="@+id/tvPostalCode"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/wcolor">  </View>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/wcolor">  </View>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Distance:"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/tvDistance"
+                    android:gravity="center"
+                    android:textColor="@color/wcolor"
+                    android:textSize="18dp"
+                    android:background="@layout/rounded_buttons_settings"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"/>
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:inputType="number"
+                    android:background="@layout/edit_text"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/evDistance"
+                    android:textAlignment="center"
+                    android:contextClickable="false"
+                    android:layout_alignRight="@+id/tvDistance"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/wcolor">  </View>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="31dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:onClick="regCar"
+            android:textColor="@color/wcolor"
+            android:text="Register Car"
+            android:background="@layout/rounded_buttons_settings"/>
+
+    </LinearLayout>
+
+</ScrollView>

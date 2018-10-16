@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_leon_jay"
+    tools:context="com.example.user16.firedbnext.LeonJay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:id="@+id/allfade">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="51dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/ncolor"
+            android:text="Add Personal Information And  Register Cars"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/aMake"/>
+
+        <!-- android:background="@layout/rounded_buttons_settings"  -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/wcolor">  </View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/unisex_a"/>
+
+        <Button
+            android:layout_width="210dp"
+            android:layout_height="33dp"
+            android:textAlignment="center"
+            android:textColor="@color/wcolor"
+            android:layout_alignParentLeft="true"
+            android:onClick="crtPerson"
+            android:background="@layout/rounded_buttons_settings"
+            android:text="Record Personal Info."/>
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/wcolor">  </View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/car2too" />
+
+        <Button
+            android:layout_width="210dp"
+            android:layout_height="33dp"
+            android:textAlignment="center"
+            android:textColor="@color/wcolor"
+            android:layout_alignParentRight="true"
+            android:onClick="crtCar"
+            android:background="@layout/rounded_buttons_settings"
+            android:text="Register Car"/>
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/wcolor">  </View>
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@layout/rounded_buttons_settings">  </View>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/wcolor">  </View>
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/ncolor"
+            android:text="View Your Personal Details And Properties: "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/wcolor">  </View>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/eyes"
+                android:layout_alignParentLeft="true"/>
+            <Button
+                android:layout_width="179dp"
+                android:layout_height="33dp"
+                android:text="View Your Data:"
+                android:onClick="viewYourself"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/wcolor"
+                android:background="@layout/rounded_buttons_settings"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/wcolor">  </View>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/eyes"
+        android:layout_alignParentRight="true"/>
+
+
+        <Button
+            android:layout_width="179dp"
+            android:layout_height="33dp"
+            android:text="View Your Cars:"
+            android:onClick="viewCars"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/wcolor"
+            android:background="@layout/rounded_buttons_settings"
+            android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@layout/rounded_buttons_settings">  </View>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

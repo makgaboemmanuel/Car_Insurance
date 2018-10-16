@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_enter_person"
+    tools:context="com.example.user16.firedbnext.EnterPerson"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:background="@color/ncolor">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Enter Personal Details:"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/wcolor"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="185dp"
+            android:background="@color/ncolor"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/person2too"
+                android:id="@+id/pica"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:background="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:textColor="@color/ncolor"
+                android:id="@+id/femaleChoose"
+                android:onClick="chooseFemale"
+                android:textSize="18dp"
+                android:layout_alignBottom="@+id/pica"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/malebald"
+                android:layout_alignRight="@+id/pica"
+                android:layout_alignParentRight="true"
+                android:id="@+id/picc"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:background="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/ncolor"
+                android:gravity="center"
+                android:id="@+id/maleChoose"
+                android:textSize="18dp"
+                android:onClick="chooseMale"
+                android:layout_alignParentRight="true"
+                android:layout_alignBottom="@+id/picc"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/ncolor">  </View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/laythree">
+
+<!-- for the first name value:  -->
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="First Name:"
+        android:id="@+id/tvFname"
+        android:textColor="@color/wcolor"
+        android:background="@layout/rounded_buttons_settings"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_alignParentLeft="true"/>
+
+    <EditText
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:background="@layout/edit_text"
+        android:layout_alignParentRight="true"
+        android:id="@+id/evFname"
+        android:textAlignment="center"
+        android:layout_alignRight="@+id/tvFname"/>
+</RelativeLayout>
+
+<!-- end of first name field design -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+
+
+<!-- for the last name value:  -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Last Name:"
+            android:id="@+id/tvLname"
+            android:textColor="@color/wcolor"
+            android:textSize="18dp"
+            android:background="@layout/rounded_buttons_settings"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"/>
+
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:background="@layout/edit_text"
+            android:id="@+id/evLname"
+            android:layout_alignParentRight="true"
+            android:textAlignment="center"
+            android:layout_alignRight="@+id/tvLname"/>
+    </RelativeLayout>
+
+<!-- end of last name field design -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+
+
+<!-- for the id name value:  -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="ID No:"
+            android:id="@+id/tvID"
+            android:textColor="@color/wcolor"
+            android:background="@layout/rounded_buttons_settings"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_alignParentLeft="true"/>
+
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:background="@layout/edit_text"
+            android:id="@+id/evID"
+            android:inputType="number"
+            android:layout_alignParentRight="true"
+            android:textAlignment="center"
+            android:layout_alignRight="@+id/tvID"/>
+    </RelativeLayout>
+
+<!-- end of id  field design -->
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+
+    <!-- for the gender value:  -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:id="@+id/tvGender"
+            android:textColor="@color/wcolor"
+            android:background="@layout/rounded_buttons_settings"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_alignParentLeft="true"/>
+
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:background="@layout/edit_text"
+            android:id="@+id/evGender"
+            android:focusable="false"
+            android:editable="false"
+            android:layout_alignParentRight="true"
+            android:textAlignment="center"
+            android:layout_alignRight="@+id/tvGender"/>
+    </RelativeLayout>
+
+    <!-- end of gender field design -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:background="@layout/rounded_buttons_settings"
+        android:textColor="@color/wcolor"
+        android:textStyle="bold"
+        android:text="Register Details"
+        android:onClick="ctrYourData"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/wcolor">  </View>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:background="@layout/rounded_buttons_settings"
+        android:textColor="@color/wcolor"
+        android:textStyle="bold"
+        android:text="Upload ID Document"
+        android:onClick="btnUploadID"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+</LinearLayout>
+
+</ScrollView>

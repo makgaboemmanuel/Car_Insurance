@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hyundai_models">
+        <item>Accent</item>
+        <item>Aero</item>
+        <item>Aero City</item>
+        <item>Atos</item>
+        <item>Chorus</item>
+        <item>County</item>
+        <item>Dynasty</item>
+        <item>Elantra</item>
+        <item>Equus</item>
+        <item>Excel</item>
+        <item>Genesis</item>
+        <item>Getz</item>
+        <item>Global 100</item>
+        <item>Grandeur</item>
+        <item>i10</item>
+        <item>i20</item>
+        <item>i30</item>
+        <item>Lavita</item>
+        <item>Mighty</item>
+        <item>Marcia</item>
+        <item>Santa Fe</item>
+        <item>Sonata</item>
+        <item>Terracan</item>
+        <item>Tucson</item>
+        <item>Verna</item>
+    </string-array>
+
+
+</resources>

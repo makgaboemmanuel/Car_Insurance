@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="kzn_towns">
+        <item>Mahlabatini</item>
+        <item>Nongoma</item>
+        <item>Pongola</item>
+        <item>Ulundi</item>
+        <item>Vryheid</item>
+        <item>Empangeni</item>
+        <item>Eshowe</item>
+        <item>Mandeni</item>
+        <item>Mtunzini</item>
+        <item>Richards Bay</item>
+        <item>Colenso</item>
+        <item>Elandslaagte</item>
+        <item>Ladysmith</item>
+        <item>Weenen</item>
+        <item>Winterton</item>
+        <item>Dundee</item>
+        <item>Glencoe</item>
+        <item>Greytown</item>
+        <item>Kranskop</item>
+        <item>Wasbank</item>
+        <item>Nquthu</item>
+        <item>Hluhluwe</item>
+        <item>Mkuze</item>
+        <item>Mtubatuba</item>
+        <item>Ubombo</item>
+        <item>Balgowan</item>
+        <item>Hilton</item>
+        <item>Mooi River</item>
+        <item>Pietermaritzburg</item>
+        <item>Dalton</item>
+        <item>Bulwer</item>
+        <item>Ixopo</item>
+        <item>Matatiele</item>
+        <item>Swartberg</item>
+        <item>Newcastle</item>
+        <item>Charlestown</item>
+        <item>Amanzimtoti</item>
+        <item>Durban</item>
+        <item>Illovo Beach</item>
+        <item>Inanda</item>
+        <item>Isipingo</item>
+        <item>KwaMashu</item>
+        <item>La Lucia</item>
+        <item>La Mercy</item>
+        <item>Mount Edgecombe</item>
+        <item>Pinetown</item>
+        <item>Tongaat</item>
+        <item>Umhlanga</item>
+        <item>Umlazi</item>
+        <item>Verulam</item>
+        <item>Warner Beach</item>
+        <item>Westville</item>
+        <item>Winkelspruit</item>
+        <item>Chatsworth</item>
+        <item>Wentworth</item>
+        <item>Umkomaas</item>
+        <item>Magabeni</item>
+        <item>Phoenix</item>
+    </string-array>
+
+</resources>

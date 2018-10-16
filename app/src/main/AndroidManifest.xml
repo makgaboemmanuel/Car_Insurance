@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user16.firedbnext">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/newTitle"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"> <!-- SplashScreen -->
+
+        </activity>
+        <activity android:name=".LeonJay" />
+        <activity android:name=".CarCreate" />
+        <activity android:name=".EnterPerson" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        >
+        <activity android:name=".activity_enter_house" />
+        <activity android:name=".listView" />
+        <activity android:name=".ViewHouses" />
+        <activity android:name=".ViewCars" />
+        <activity android:name=".terms_conditions" />
+        <activity android:name=".credits" />
+        <activity android:name=".prog_des" />
+        <activity android:name=".HelpMenu"></activity>
+    </application>
+
+</manifest>

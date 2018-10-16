@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mitsubishi_models">
+        <item>Asprire</item>
+        <item>Carisma</item>
+        <item>Colt</item>
+        <item>Colt 600</item>
+        <item>Debonair</item>
+        <item>Endeavor</item>
+        <item>Eterna Sava</item>
+        <item>Eterna Sigma</item>
+        <item>Gallant</item>
+        <item>Lancer</item>
+        <item>Maven</item>
+        <item>Mirage</item>
+        <item>Proudia</item>
+        <item>Predia</item>
+        <item>Pajero</item>
+        <item>Pajero Mini</item>
+        <item>Toppo</item>
+        <item>Sigma</item>
+        <item>Tredia</item>
+
+    </string-array>
+</resources>

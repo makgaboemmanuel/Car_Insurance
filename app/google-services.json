@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "95568795594",
+    "firebase_url": "https://firemorenext.firebaseio.com",
+    "project_id": "firemorenext",
+    "storage_bucket": "firemorenext.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95568795594:android:11a3d4ad2a692fb8",
+        "android_client_info": {
+          "package_name": "com.example.user16.firedbnext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95568795594-0oqu05mejbsag8l2uol2ukd28i63627u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9oCwY3aBiKSJ-oyp4l4NVZO_2hUmq_jo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

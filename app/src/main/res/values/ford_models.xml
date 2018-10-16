@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ford_models">
+        <item>Chasis Cab</item>
+        <item>C-Max</item>
+        <item>C-Max Hybrid</item>
+        <item>Edge</item>
+        <item>Escape</item>
+        <item>Eco-Sport</item>
+        <item>Expedition</item>
+        <item>Fiesta</item>
+        <item>Figo</item>
+        <item>Focus</item>
+        <item>Fusion</item>
+        <item>F-650-750</item>
+        <item>Flex</item>
+        <item>Florex</item>
+        <item>Focus Electric</item>
+        <item>F-150</item>
+        <item>Kuga</item>
+        <item>Mustang</item>
+        <item>Ranger Super-Cab</item>
+        <item>Ranger Double-Cab</item>
+        <item>Super Duty Pick-Up</item>
+        <item>Taurus</item>
+        <item>Tourneo</item>
+        <item>Transit Connect</item>
+
+    </string-array>
+</resources>

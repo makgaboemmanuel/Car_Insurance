@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FireDBNext</string>
+    <string name="newTitle">Car Insurance</string>
+    <string name="terms">I full acknowledge that the information provided by is true and correct.
+        That I shall use this system as per purpose it was created for. I use the
+        system at my own will and choice. If ever identified of malicious intents,
+        my usage of the system will be terminated with immediate effect.  The owners will not be held liable for
+        any damage caused on my device during the usage. I there here by agree to the terms and
+        conditions of the system.</string>
+
+    <string name="about_me"> Information
+Technology Software Developer from
+TUT. Languages: VB, C++, C#, SQL, PL/SQL,
+HTML, CSS and PHP. Currently working as
+Android developer Trainee @CodeTribe. </string>
+
+    <string name="khuti_roles">Lead Developer And CodeTribe Coach Tshwane | Android</string>
+    <!--  please add the resources that you will need to set adapter as input  -->
+
+    <!-- list of countries -->
+
+
+    <string-array name="countries">
+        <item>South Africa</item>
+    </string-array>
+
+
+    <!-- list of provinces -->
+
+    <string-array name="provinces">
+        <item>Gauteng</item>
+        <item>KwaZulu-Natal</item>
+        <item>Limpopo</item>
+        <item>Western Cape</item>
+    </string-array>
+
+</resources>
+
+
+
+

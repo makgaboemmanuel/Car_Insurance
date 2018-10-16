@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="toyota_models">
+        <item>Camry</item>
+        <item>Century </item>
+        <item>Comfort </item>
+        <item>Corolla </item>
+        <item>Corolla Axio </item>
+        <item>Corolla Fielder </item>
+        <item>Crown</item>
+        <item>Crown Majesta</item>
+        <item>Dyna </item>
+        <item>Estima </item>
+        <item>Etios </item>
+        <item>Fortuner </item>
+        <item>Highlander </item>
+        <item>Hilux </item>
+        <item>Hilux Surf </item>
+        <item>HiClass </item>
+        <item>Hiace </item>
+        <item>Innova </item>
+        <item>Kluger </item>
+        <item>Land Cruiser </item>
+        <item>Land Cruiser Prado </item>
+        <item>Yaris </item>
+        <item>Mirai </item>
+        <item>NAV1 </item>
+        <item>Noah </item>
+        <item>Passo </item>
+        <item>Porte </item>
+        <item>Premio </item>
+        <item>Prius </item>
+        <item>Prius Aqua </item>
+        <item>Probox </item>
+        <item>ProAce </item>
+        <item>Ractis </item>
+        <item>RAV4 </item>
+        <item>Reiz </item>
+        <item>Rush </item>
+        <item>Sai </item>
+        <item>Sequoia </item>
+        <item>Sienna </item>
+        <item>Sienta </item>
+        <item>Tacoma </item>
+        <item>Tarago </item>
+        <item>TownAce </item>
+        <item>ToyoAce </item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  gauteng province towns    -->
+    <string-array name="gauteng_towns">
+        <item> Alexandra</item>
+        <item> Johannesburg</item>
+        <item> Lenasia</item>
+        <item> Midrand</item>
+        <item> Randburg</item>
+        <item> Roodepoort</item>
+        <item> Sandton</item>
+        <item> Soweto</item>
+        <item> Alberton</item>
+        <item> Germiston</item>
+        <item> Benoni</item>
+        <item> Boksburg</item>
+        <item> Brakpan</item>
+        <item> Daveyton</item>
+        <item> Devon</item>
+        <item> Duduza</item>
+        <item> Edenvale</item>
+        <item> Germiston</item>
+        <item> Impumelelo</item>
+        <item> Isando</item>
+        <item> Katlehong</item>
+        <item> Kempton Park</item>
+        <item> KwaThema</item>
+        <item> Nigel</item>
+        <item> Reiger Park</item>
+        <item> Springs</item>
+        <item> Tembisa</item>
+        <item> Thokoza</item>
+        <item> Tsakane</item>
+        <item> Vosloorus</item>
+        <item> Wattville</item>
+        <item> Atteridgeville</item>
+        <item> Bronberg</item>
+        <item> Bronkhorstspruit</item>
+        <item> Centurion</item>
+        <item> Cullinan</item>
+        <item> Ekangala</item>
+        <item> Hammanskraal</item>
+        <item> Irene</item>
+        <item> Mamelodi</item>
+        <item> Pretoria</item>
+        <item> Refilwe</item>
+        <item> Soshanguve</item>
+        <item> Zithobeni</item>
+        <item> Boipatong	</item>
+        <item> Bophelong</item>
+        <item> EvatonSebokeng	</item>
+        <item> Sharpeville	</item>
+        <item> Vanderbijlpark</item>
+        <item> Vereeniging</item>
+        <item> Meyerton	</item>
+        <item> Heidelberg	</item>
+        <item> Ratanda</item>
+        <item> Carletonville	</item>
+        <item> Khutsong	</item>
+        <item> Kagiso</item>
+        <item> Krugersdorp	</item>
+        <item> Magaliesburg	</item>
+        <item> Muldersdrift</item>
+        <item> Mohlakeng</item>
+        <item> Randfontein</item>
+        <item> Bekkersdal</item>
+        <item> Westonaria</item>
+
+    </string-array>
+
+</resources>
